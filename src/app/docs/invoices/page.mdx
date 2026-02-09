@@ -1,0 +1,52 @@
+# Invoices
+
+The Invoices section lets you view and manage all invoices synced from your accounting system (Odoo).
+
+![Invoices page](/images/screenshots/invoices-list.png)
+
+## Overview
+
+The Invoices page displays all invoices in a grid layout. Each invoice card shows:
+
+- **Invoice number** -- The unique invoice reference (e.g., "2026-02-0018")
+- **Client name** -- The company or entity the invoice is for
+- **Total amount** -- The total amount including taxes, displayed in euros
+- **Invoice date** -- When the invoice was issued
+- **Payment status** -- Current payment state (see below)
+- **Due date** -- When payment is expected
+- **View Invoice** button -- Opens the full invoice detail
+
+## Payment Status
+
+Invoices are color-coded by their payment status:
+
+| Status | Description |
+|---|---|
+| **Not Paid** | The invoice has not been paid yet |
+| **Partial** | A partial payment has been received |
+| **Paid** | The invoice has been fully paid |
+
+## View Modes
+
+You can switch between two view modes using the toggle at the top:
+
+- **Grid view** -- Card-based layout (default), great for scanning multiple invoices
+- **List view** -- Row-based layout, useful for comparing invoice details side by side
+
+## Viewing Invoice Details
+
+Click **View Invoice** on any card to open a detailed preview.
+
+![Invoice detail](/images/screenshots/invoice-detail.png)
+
+The invoice detail shows:
+- Full invoice header with company information
+- Invoice number, date, and due date
+- Reference number
+- Line-by-line breakdown of items, quantities, unit prices, taxes, and totals
+- A PDF preview of the original invoice document
+- A **download button** to save the PDF to your computer
+
+## Data Sync
+
+Invoices are automatically synced from your Odoo accounting system. The **Last sync** timestamp in the navigation bar shows when data was last updated. Click the **Sync** button to trigger a manual sync if needed.
