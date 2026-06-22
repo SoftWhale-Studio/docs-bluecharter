@@ -3,4 +3,5 @@ export default {
   'upload-document': 'My Uploads',
   'review-documents': 'Review Documents',
   'filters-and-search': 'Filters & Search',
+  'email-notifications': 'Email Notifications',
 }
